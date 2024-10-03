@@ -1,5 +1,5 @@
 
-# NTT deployment testing with Wormhole TS-SDK
+# NTT deployment example using Wormhole TS-SDK
 
 ## Overview
 
@@ -17,8 +17,8 @@ Ensure you have the following installed on your system:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/wormhole-foundation/demo-ntt-ts-sdk.git
-   cd /demo-ntt-ts-sdk
+   git clone https://github.com/solguru310/solana-wormhole-ntt-example.git
+   cd /solana-wormhole-ntt-example
    ```
 
 2. **Install Dependencies:**
@@ -84,3 +84,11 @@ Ensure you have the following installed on your system:
  **Finality delay:**
 
    When executing the script, you may see log messages like *Retrying Wormholescan:GetVaaByTxHash, attempt 100/750*. This is expected due to the time required for the source blockchain, like Ethereum, to reach finality, which can take up to 15 minutes. The Wormhole guardian network needs this time to produce a valid attestation (VAA). The retry attempts ensure the transaction is fully confirmed and secure before proceeding.
+
+
+## Contact me
+If you need more technical support and development inquires, you can contact below.
+
+Telegram: [@dwlee918](https://t.me/@dwlee918)
+
+Twitter: [@derricklee918](https://x.com/derricklee918)
